@@ -10,7 +10,7 @@ const discount20 = 20;
 const discount40 = 40;
 
 //Prezzo totale del ticket
-let ticketPrice = km + priceForKm;
+let ticketPrice = km * priceForKm;
 
 //Contengono il totale dello sconto applicato e il totale al netto di eventuali sconti
 let totalDiscount = 0;
